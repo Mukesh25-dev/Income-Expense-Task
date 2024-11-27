@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f5f5f5;
+    font-family: "Iceland", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    background-image: url(https://www.econlib.org/wp-content/uploads/2018/02/distribution-of-income.jpg);
+    object-fit: fill;
+  }
+  
+  
+  .container {
+    max-width: 600px;
+    height: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  #total-inome{
+    color: #28a745;
+  }
+  #total-expense{
+    color: #dc3545;
+  }
+  
+  .summary {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+    font-size: 2.1em;
+  }
+  
+  .summary div {
+    flex: 1;
+    text-align: center;
+    color: #555;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  .A-D{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    gap: 20px;
+  }
+  .A-R{
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+  }
+  
+  .form input {
+    padding: 12px;
+    border: 3px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .form button {
+
+    padding: 10px 12px;
+    border: none;
+    background-color: #28a745;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .form button#reset {
+    background-color: #dc3545;
+    padding: 10px 12px;
+  }
+  
+  .form button:hover {
+    opacity: 0.9;
+  }
+  
+  .filters {
+    margin-bottom: 20px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  .filters label {
+    font-size: 1.5em;
+    color: #555;
+    cursor: pointer;
+  }
+  
+  #entry-list {
+    list-style: none;
+    padding: 0;
+    
+  }
+  
+  .entry {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .entry .actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .entry button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 4px 8px;
+    cursor: pointer;
+  }
+  
+  .entry button.delete {
+    background-color: #dc3545;
+  }
+  
